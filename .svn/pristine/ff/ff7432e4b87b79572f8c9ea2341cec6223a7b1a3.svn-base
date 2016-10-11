@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8"/>
+    <meta name="Description" content="丽子化妆品商城 - 买化妆品到丽子LiZi，智慧美丽生活，100%正品化妆品购物网站！丽子LiZi是中国最独特的化妆品零售品牌,支持货到付款,30天退换货！I LOVE 丽子LiZi!"/>
+    <link rel="shortcut icon" href="http://img.nala.com.cn/lizi/favicon.ico" type="image/x-icon" />
+    <title>丽子美妆商城</title>
+    <link rel="stylesheet" href="css/global_cart.css?20140915" />
+    <link rel="stylesheet" href="css/login.css?201409163" />
+</head>
+<body>
+<!-- 头部 -->
+<div id="header">
+    <div class="hd_bar" id="userinfo-bar">
+        <div class="bd">
+            <div class="logo"><a href="http://www.lizi.com/">多美商城</a></div>
+            <div class="hd_lbar">
+                <a href="/" rel="nofollow">多美首页</a>
+            </div>
+            <div class="hd_rbar">
+                
+                <a href="javascript:;" id="zixun-btn"><i class="iconfont">&#524;</i>联系我们</a>
+                <span>4007-112-112</span>
+            </div>
+            <div class="zixun-box" id="zixun-box">
+                <i class="arw"></i>
+                <a href="javascript:;" class="iconfont closed">&#223;</a>
+                <h5>既然这样，</h5>
+                <p>就只能请出我们万能的客服了！</p>
+                <div class="zixun-qq">
+                    <a href="http://wpa.b.qq.com/cgi/wpa.php?ln=1&key=XzgwMDA0MjIzN181OTY5N184MDAwNDIyMzdfMl8" target="_blank"></a>
+                </div>
+                <p>客服热线：<strong>4007-112-112</strong></p>
+                <p>7x24小时全天候服务</p>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- 头部 -->
+
+
+
+<div id="main" class="cle">
+    <div class="box-pic" id="login-pic">
+        <div class="img">
+            <!-- cms: loginpage_pic -->
+
+<img src="http://img.nala.com.cn/b2c/cart/images/login-box-bg.jpg" width="500" height="450" />
+
+
+
+        </div>
+    </div>
+    <div class="g_box">
+        <div id="login-box">
+            <h2><div class="trig">没有帐号？<a href="/user/reg" class="trigger-box">点击注册</a></div>登录</h2>
+            <div class="form-bd">
+                <div class="form_box cle"  id="login-nala">
+                
+
+                    <div class="login_box">
+                        <form id="login-nala-form">
+                            <ul class="form">
+                                <li class="text_input"><span class="error_icon"></span><span class="iconfont">&#338;</span><input type="text" name="username" class="text" placeholder="用户名/邮箱"></li>
+                                <li class="text_input"><span class="error_icon"></span><span class="iconfont">&#247;</span><input type="password" name="password" class="text" placeholder="密码"></li>
+                                <li class="error_box"><em></em></li>
+                                <li class="login_param"><p><a class="forget_psd" href="/user/resetPwd">忘记密码?</a><label><input type="checkbox" checked="checked" name="_spring_security_remember_me" class="remember-me">下次自动登录</label></p></li>
+                                <li class="last"><input type="submit" class="btn" value="登 录" /></li>
+                            </ul>
+                        </form>
+                    </div>
+
+                </div>
+            </div>
+            <ul class="form other-form">
+                <li><h5>使用第三方帐号登录</h5></li>
+                <li class="other-login">
+                    <a class="sina" target="_blank" href="https://api.weibo.com/oauth2/authorize?client_id=1062800511&response_type=code&redirect_uri=http://www.lizi.com/user/sinaLogin" onClick="ga('send','event','reg','click','sinaReg_');"></a>
+                    <a class="qq"  target="_blank" href="https://graph.qq.com/oauth2.0/authorize?response_type=code&amp;client_id=100224827&amp;state=1&amp;redirect_uri=www.lizi.com/user/qqLoginCallback" onClick="ga('send','event','reg','click','qqReg_');"></a>
+                    <a class="alipay" target="_blank"  href="http://www.lizi.com/user/alipayLogin" onClick="ga('send','event','reg','click','alipayReg_');"></a>
+                    <a class="taobao tb-link"target="_blank"  href="http://www.lizi.com/user/taobaoLogin" onClick="ga('send','event','reg','click','taobaoReg_');"></a>
+                    <a class="baidu" target="_blank" href="http://www.lizi.com/user/baiduLogin?login=baidu" onClick="ga('send','event','reg','click','baiduReg_');"></a>
+                    <a class="qihoo360" target="_blank" href="https://openapi.360.cn/oauth2/authorize?client_id=6550d4a07c17ee81e0737a4203d5848c&response_type=code&redirect_uri=http://www.lizi.com/user/qihooCallBack&scope=basic&display=default" onClick="ga('send','event','reg','click','qihoo360Reg_');"></a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>
+        <script src="js/jquery.js"></script>
+        <script src="js/dialog.min.js"></script>
+        <script src="js/global.js?v=20140915"></script>
+        <script src="js/login.js?201409163"></script>
+<!-- 页面底部开始 -->
+<div id="footer">
+    <div class="ft-bg">
+        <div class="ft_main">
+            
+            <div  class="ft_links">
+                <div class="ft_nav"><a href="http://www.lizi.com/help/about_us_lizi.html" target="_blank" class="noborder" rel="nofollow">关于丽子</a><a href="http://www.lizi.com/cms/" target="_blank">美容资讯</a><a href="http://www.lizi.com/help/bus_co.html" target="_blank" rel="nofollow">商务合作</a><a href="http://www.lizi.com/help/join_us.html" target="_blank" rel="nofollow">加入我们</a><a href="http://www.lizi.com/help/free_ship_detail.html" target="_blank" rel="nofollow">配送政策</a><a href="http://www.lizi.com/help/zhengpin_lizi.html" target="_blank" rel="nofollow">售后保障</a><a href="http://www.lizi.com/help/shopping_guide.html" target="_blank" rel="nofollow">帮助中心</a><a href="http://www.lizi.com/help/link.html" target="_blank">友情链接</a><a href="http://www.lizi.com/help/contact_us.html" target="_blank" rel="nofollow">联系我们</a></div>
+                <div class="img_links"><a class="no1" href="http://www.lizi.com/help/zhengpin_lizi.html" target="_blank" rel="nofollow"></a>
+                    <a class="no2" href="http://www.lizi.com/help/30_return.html" target="_blank" rel="nofollow"></a></div>
+            </div>
+            <div class="ft_txt">
+                <p>
+                    Copyright 2009-2014, 辛巴信息技术（杭州）有限公司 LIZI.COM 增值电信业务经营许可证：浙B2-20110315 备案号：<a href="http://www.miitbeian.gov.cn" target="_blank" rel="nofollow">浙ICP备11012845号-5</a></p>
+                <p class="ft_contact">
+                    <span>7X24小时全天候服务</span> <span class="ft_phone">客服热线: <em>4007-112-112</em></span></p>
+                <p class="beian-logos">
+                    <img alt="经营性网站备案" class="beian-ico" src="http://img.nala.com.cn/images/kong.gif" /> <img alt="金牌服务典范" class="fuwu-ico" src="http://img.nala.com.cn/images/kong.gif" /></p>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+</body>
+</html>

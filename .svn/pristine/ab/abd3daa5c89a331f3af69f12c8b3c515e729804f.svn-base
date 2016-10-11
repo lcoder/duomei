@@ -1,0 +1,629 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <title>我的丽子</title>
+    <link rel="shortcut icon" href="http://img.nala.com.cn/lizi/favicon.ico" type="image/x-icon" />
+    <meta name="Description" content="丽子美妆" />
+    <meta name="Keywords" content="丽子美妆" />
+    <meta name="MSSmartTagsPreventParsing" content="True" />
+    <meta http-equiv="MSThemeCompatible" content="Yes" />
+    <meta http-equiv="Content-Language" content="zh-CN" />
+    <link rel="stylesheet" href="css/global_myTrade.css" />
+
+    <link rel="stylesheet" type="text/css" href="css/admin.css" />
+    <script src="js/jquery.js"></script>
+    <script src="js/dialog.min.js"></script>
+    <script src="js/switchable.min.js"></script>
+    <script src="js/global.min.js"></script>
+
+    <meta name="layout" content="inala" />
+
+
+
+</head>
+
+<body>
+
+    <div id="header">
+        <div class="hd_bar">
+            <div class="bd_bar_bd">
+                <ul id="userinfo-bar">
+                    <li><a href="http://www.lizi.com/login/auth" rel="nofollow">登录</a>
+                        <s>|</s><a href="http://www.lizi.com/user/reg" rel="nofollow">注册</a>
+                    </li>
+                    <li class="more-menu">
+                        <a href="http://www.lizi.com/user/myTrade" rel="nofollow">我的丽子</a><i class="iconfont arrow">&#8193;</i>
+                    </li>
+                    <li class="more-menu">
+                        <a class="menu-link" href="http://www.lizi.com/help/bus_co.html" rel="nofollow">丽子合作</a><i class="iconfont arrow">&#8193;</i>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="hd_main cle">
+            <div class="logo">
+                <p><a href="http://www.lizi.com">丽子美妆</a>
+                </p>
+            </div>
+
+            <div class="intro">
+                <ul>
+                    <li class="no1">
+                        <a href="http://www.lizi.com/help/zhengpin_lizi.html" target="_blank" rel="nofollow">
+                            <h4>正品保障</h4>
+                            <p>中国人保为丽子承保</p>
+                        </a>
+                    </li>
+                    <li class="no2">
+                        <a href="http://www.lizi.com/help/30_return.html" target="_blank" rel="nofollow">
+                            <h4>30天无理由退换货</h4>
+                            <p>轻松购物有保障</p>
+                        </a>
+                    </li>
+                    <li class="no3">
+                        <a href="http://www.lizi.com/help/free_ship_detail.html" target="_blank" rel="nofollow">
+                            <h4>闪电发货</h4>
+                            <p>满99元免邮费</p>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="hd_cart" id="head_cart">
+                <a class="tit" href="http://www.lizi.com/cart/mycart" rel="nofollow"><b class="iconfont">&#413;</b>去购物车结算<span><i class="iconfont">&#xe62c;</i></span><em class="num" id="hd_cartnum">0</em></a>
+                <div class="list">
+                    <p class="load"></p>
+                </div>
+            </div>
+        </div>
+        <div class="hd_nav">
+            <div class="hd_nav_bd cle">
+                <div class="main_nav" id="main_nav">
+                    <div class="main_nav_link">
+                        <a href="javascript:;">全部商品分类</a>
+                        <i class="iconfont">&#xe62e;</i>
+                    </div>
+                    <div class="main_cata" id="J_mainCata">
+                        <ul>
+                            <li class="first">
+                                <h3><a target="_blank" href="http://www.lizi.com/item/01/">护肤</a>
+                                </h3>
+                                <div class="bd">
+                                    <a target="_blank" href="http://www.lizi.com/item/0103/">洁面</a>
+                                    <a target="_blank" href="http://www.lizi.com/item/0107/">爽肤水</a>
+                                    <a target="_blank" href="http://www.lizi.com/item/0116/">防晒</a>
+                                    <a target="_blank" href="http://www.lizi.com/item/0102/">卸妆</a>
+                                    <a target="_blank" href="http://www.lizi.com/item/0110/">眼部护理</a>
+                                    <a target="_blank" href="http://www.lizi.com/item/0108/">面部精华</a>
+                                    <a target="_blank" href="http://www.lizi.com/item/0111/">乳液/面霜</a>
+                                </div>
+                            </li>
+                            <li>
+                                <h3><a target="_blank" href="http://www.lizi.com/item/02/">彩妆</a>
+                                </h3>
+                                <div class="bd">
+                                    <a target="_blank" href="http://www.lizi.com/item/0203/">BB霜</a>
+                                    <a target="_blank" href="http://www.lizi.com/item/0206/">隔离/打底</a>
+                                    <a target="_blank" href="http://www.lizi.com/item/0213/">粉底</a>
+                                    <a target="_blank" href="http://www.lizi.com/item/0202/">眼影</a>
+                                    <a target="_blank" href="http://www.lizi.com/item/0210/">眼线</a>
+                                    <a target="_blank" href="http://www.lizi.com/item/0208/">睫毛膏</a>
+                                    <a target="_blank" href="http://www.lizi.com/item/0223/">口红</a>
+                                    <a target="_blank" href="http://www.lizi.com/item/04/">香水</a>
+                                </div>
+                            </li>
+                            <li>
+                                <h3><a target="_blank" href="http://www.lizi.com/item/07/">日化清洁</a>
+                                </h3>
+                                <div class="bd">
+                                    <a target="_blank" href="http://www.lizi.com/item/0703/">洗发护肤</a>
+                                    <a target="_blank" href="http://www.lizi.com/item/0701/">身体洗护</a>
+                                    <a target="_blank" href="http://www.lizi.com/item/0702/">口腔护理</a>
+                                </div>
+                            </li>
+                            <li>
+                                <h3><a target="_blank" href="http://www.lizi.com/item/05/">健康保养</a>
+                                </h3>
+                                <div class="bd">
+                                    <a target="_blank" href="http://www.lizi.com/item/0502/">纤体瘦身</a>
+                                    <a target="_blank" href="http://www.lizi.com/item/0501/">美容丰胸</a>
+                                    <a target="_blank" href="http://www.lizi.com/item/0503/">成人用品</a>
+                                </div>
+                            </li>
+                            <li>
+                                <h3><a target="_blank" href="http://www.lizi.com/item/03/">化妆工具</a>
+                                </h3>
+                                <div class="bd">
+                                    <a target="_blank" href="http://www.lizi.com/item/0301/">化妆刷</a>
+                                    <a target="_blank" href="http://www.lizi.com/item/0315/">化妆棉</a>
+                                    <a target="_blank" href="http://www.lizi.com/item/0311/">粉扑/洁面扑</a>
+                                </div>
+                            </li>
+                            <li class="last">
+                                <a target="_blank" href="http://www.lizi.com/all-brand/">品牌大全</a>
+                                <a class="no2" target="_blank" href="http://www.lizi.com/item/newsearch">商品大全</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="J_subCata" id="J_subCata">
+                    </div>
+                </div>
+                <ul class="sub_nav cle" id="sub_nav">
+                    <li><a href="http://www.lizi.com/" rel="nofollow">60秒闪购</a>
+                    </li>
+                    <li><a href="http://www.lizi.com/mall/">丽子商城</a>
+                    </li>
+
+
+                    <li><a target="_blank" href="http://ask.lizi.com/">丽子问答</a>
+                    </li>
+                    <li><a target="_blank" href="http://www.lizi.com/active/zpbz.html" rel="nofollow">100%正品</a>
+                    </li>
+                    <li><a target="_blank" href="http://www.lizi.com/active/lizi-app.html">手机丽子</a>
+                    </li>
+                </ul>
+                <div class="search_box">
+                    <form action="/item/newsearch" method="get" id="search_fm" name="search_fm">
+
+                        <input class="sea_input" type="text" name="content" id="textfield" value="请输入商品或品牌" />
+
+
+                        <input type="hidden" value="k1" name="dataBi" />
+                        <button type="submit" class="sea_submit">搜索</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div id="wrapper" class="cle">
+
+
+        <!-- ClickTale Top part -->
+        <script type="text/javascript">
+        var WRInitTime = (new Date()).getTime();
+        </script>
+        <!-- ClickTale end of Top part -->
+
+        <div class="my_nala_tip">
+            <ul>
+                <li>您当前位置：</li>
+                <li><a href="/">首页</a>&nbsp;&nbsp;&gt;</li>
+                <li><a href="/inala">我的丽子</a>&nbsp;&nbsp;&gt;</li>
+                <li>我的订单</li>
+            </ul>
+        </div>
+
+        <div class="my_nala_main">
+            <div class="slidebar">
+                <h3 class="my_nala">
+                    <a href="/user/myTrade">我的丽子</a>
+                </h3>
+                <ul class="slide_item">
+                    <li class="item">
+                        <div class="root_node"><i class="iconfont">&#xe62e;</i>账户管理</div>
+                        <ul>
+                            <li>
+                                <a class="on" href="/user/myTrade"><i class="iconfont">&#xe61a;</i>我的订单</a>
+                            </li>
+                            <!-- li后期可以增加 -->
+                        </ul>
+                    </li>
+
+                    <li class="item">
+                        <div class="root_node"><i class="iconfont">&#xe62e;</i>个人信息管理</div>
+                        <ul>
+                            <li>
+                                <a class="" href="/user/edit"><i class="iconfont">&#xe8;</i>编辑个人档案</a>
+                            </li>
+                            <li>
+                                <a class="" href="/address/list"><i class="iconfont">&#x159;</i>修改收货地址</a>
+                            </li>
+                            <li>
+                                <a class="" href="/user/editPwd"><i class="iconfont">&#xf7;</i>修改密码</a>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+
+
+            </div>
+            <div class="my_nala_centre">
+                <div class="trade_mod">
+                    <div class="my_point">
+                        <h3 class="h301">我最近交易的订单</h3>
+                        <div class="trade_sort">
+                            <ul class="cle_float">
+                                <li><a href="/trade/search2?select4=0">待付款订单( 0 )</a>
+                                </li>
+                                <li><a href="/trade/search2?select4=1">待发货订单( 0 )</a>
+                                </li>
+                                <li><a href="/trade/search2?select4=2">待收货订单( 0 )</a>
+                                </li>
+                                <li><a href="/trade/search2?select4=3">待评价订单( 1 )</a>
+                                    <em class="comment-tojifen-ico"></em>
+                                </li>
+                            </ul>
+                        </div>
+                        <h3 class="h301">
+                            <strong>我的全部订单</strong><a href="/trade/delList" class="r"><i class="iconfont" id="trade-recyle">&#356;</i>订单回收站</a>
+                        </h3>
+
+                        <table width="100%" class="trade_tb01" id="trade-list">
+                            <tbody>
+                                <tr class="tb1_hd">
+                                    <td align="left">
+                                        <form action="/trade/search" method="post" name="form2" id="form2">
+                                            <span class="pl12">订单查询：</span>
+                                            <input name="search" type="text" class="txt">
+                                            <input type="submit" value="查询 " class="btn">&nbsp;&nbsp;&nbsp;&nbsp;
+                                        </form>
+                                    </td>
+                                    <td colspan="2">
+                                        <div class="plf30">
+                                            <span class="pl12">状态：</span>
+                                            <form action="/trade/search2" method="post" name="form3" style="inline-block;" id="form3">
+                                                <select name="select4" onchange="getSelect1();">
+
+                                                    <option selected="">全部</option>
+                                                    <option>未付款</option>
+                                                    <option>等待发货</option>
+                                                    <option>等待收货</option>
+                                                    <option>已确认收货</option>
+                                                    <option>已评价</option>
+                                                    <option>已取消</option>
+
+                                                </select>
+                                            </form>
+                                        </div>
+                                    </td>
+                                </tr>
+
+
+                                <tbody>
+                                    <tr>
+                                        <th>
+                                            <p class="mt5 pl12">
+                                                <span class="gray888">订单编号：<a target="_blank" href="http://www.lizi.com/trade/detail/14090753000002547129">14090753000002547129</a>
+                                                </span>&nbsp; &nbsp; 下单时间：2014-09-07 23:05</p>
+                                        </th>
+                                        <th width="120">
+
+                                            <em class="em01">
+
+
+                                                已取消
+
+                                            </em>
+                                        </th>
+                                        <th width="220" class="trade-count">
+                                            <em>订单金额：￥</em>
+                                            <em class="em_price">697.00</em>
+                                        </th>
+
+                                    </tr>
+                                    <tr>
+                                        <td class="items">
+
+                                            <dl class="cle_float">
+                                                <dd class="trade_img">
+                                                    <img src="http://pic.yupoo.com/kauu/C74VWVNK/square.jpg" />
+                                                </dd>
+                                                <dt class="trade_title"><a href="http://www.lizi.com/product-240434041.html" target="_blank">美丽工匠美体刮毛刀 
+                                                                
+                                                                    (黄色)
+                                                                
+                                                                </a>
+                                                </dt>
+                                                <dd class="trade_price">￥9.00 x 1</dd>
+                                                <dd class="trade_rebuy"><a class="J_addCart" href="javascript:void(0);" rel="nofollow">再次购买</a>
+                                                    <input type="hidden" name="id" value="240444042" />
+                                                </dd>
+                                            </dl>
+
+                                            <dl class="cle_float">
+                                                <dd class="trade_img">
+                                                    <img src="http://nalapic.b0.upaiyun.com/cb3841eb10d.png!square" />
+                                                </dd>
+                                                <dt class="trade_title"><a href="http://www.lizi.com/product-546434658.html" target="_blank">柏羽净颜洁面膏
+                                                                
+                                                                </a>
+                                                </dt>
+                                                <dd class="trade_price">￥8.00 x 1</dd>
+                                                <dd class="trade_rebuy"><a class="J_addCart" href="javascript:void(0);" rel="nofollow">再次购买</a>
+                                                    <input type="hidden" name="id" value="546414686" />
+                                                </dd>
+                                            </dl>
+
+                                            <dl class="cle_float">
+                                                <dd class="trade_img">
+                                                    <img src="http://pic.yupoo.com/kauu/BC4JWRDZ/square.jpg" />
+                                                </dd>
+                                                <dt class="trade_title"><a href="http://www.lizi.com/product-95619582.html" target="_blank">迪奥粉红魅惑香水
+                                                                
+                                                                </a>
+                                                </dt>
+                                                <dd class="trade_price">￥680.00 x 1</dd>
+                                                <dd class="trade_rebuy"><a class="J_addCart" href="javascript:void(0);" rel="nofollow">再次购买</a>
+                                                    <input type="hidden" name="id" value="95629583" />
+                                                </dd>
+                                            </dl>
+
+                                        </td>
+
+                                        <td class="status">
+
+                                        </td>
+
+                                        <td class="operate">
+
+                                            <div>
+                                                <a target="_blank" class="graybtn" href="http://www.lizi.com/trade/detail/14090753000002547129">查看详情</a>
+
+                                            </div>
+
+                                            <div>
+                                                <a href="javascript:;" class="graybtn del-trade" data-id="14090753000002547129"><i class="iconfont">Ť</i>删除订单</a>
+                                            </div>
+
+
+                                        </td>
+                                    </tr>
+                                </tbody>
+
+                                <tbody>
+                                    <tr>
+                                        <th>
+                                            <p class="mt5 pl12">
+                                                <span class="gray888">订单编号：<a target="_blank" href="http://www.lizi.com/trade/detail/14081253000002103781">14081253000002103781</a>
+                                                </span>&nbsp; &nbsp; 下单时间：2014-08-12 21:03</p>
+                                        </th>
+                                        <th width="120">
+
+                                            <em class="em02">
+
+
+                                                已确认收货
+
+                                            </em>
+                                        </th>
+                                        <th width="220" class="trade-count">
+                                            <em>订单金额：￥</em>
+                                            <em class="em_price">84.00</em>
+                                        </th>
+
+                                    </tr>
+                                    <tr>
+                                        <td class="items">
+
+                                            <dl class="cle_float">
+                                                <dd class="trade_img">
+                                                    <img src="http://pic.yupoo.com/kauu/C1rB1z7V/square.jpg" />
+                                                </dd>
+                                                <dt class="trade_title"><a href="http://www.lizi.com/product-138033812.html" target="_blank">丝塔芙舒特肤洁面乳
+                                                                
+                                                                </a>
+                                                </dt>
+                                                <dd class="trade_price">￥79.00 x 1</dd>
+                                                <dd class="trade_rebuy"><a class="J_addCart" href="javascript:void(0);" rel="nofollow">再次购买</a>
+                                                    <input type="hidden" name="id" value="138043814" />
+                                                </dd>
+                                            </dl>
+
+                                        </td>
+
+                                        <td class="status">
+
+                                            <span class="trade_ex">
+                                                <i class="iconfont">&#345;</i>
+                                                申通
+
+                                            </span>
+                                            <a class="J_exBtn" data-id="14081253000002103781" data-name="申通" data-num="888331349001" href="javascript:void(0);">跟踪</a>
+
+                                        </td>
+
+                                        <td class="operate">
+
+                                            <div>
+                                                <a target="_blank" class="graybtn" href="http://www.lizi.com/trade/detail/14081253000002103781">查看详情</a>
+
+                                                <a href="http://www.lizi.com/comment/comment?tradeId=14081253000002103781" class="btn btn_confirm" target="_blank">去评价</a>
+
+                                            </div>
+
+                                            <div>
+                                                <a href="javascript:;" class="graybtn del-trade" data-id="14081253000002103781"><i class="iconfont">Ť</i>删除订单</a>
+                                            </div>
+
+
+                                        </td>
+                                    </tr>
+                                </tbody>
+
+                                <tbody>
+                                    <tr>
+                                        <th>
+                                            <p class="mt5 pl12">
+                                                <span class="gray888">订单编号：<a target="_blank" href="http://www.lizi.com/trade/detail/14051853000000945557">14051853000000945557</a>
+                                                </span>&nbsp; &nbsp; 下单时间：2014-05-18 21:15</p>
+                                        </th>
+                                        <th width="120">
+
+                                            <em class="em02">
+
+
+                                                已评价
+
+                                            </em>
+                                        </th>
+                                        <th width="220" class="trade-count">
+                                            <em>订单金额：￥</em>
+                                            <em class="em_price">243.00</em>
+                                        </th>
+
+                                    </tr>
+                                    <tr>
+                                        <td class="items">
+
+                                            <dl class="cle_float">
+                                                <dd class="trade_img">
+                                                    <img src="http://pic.yupoo.com/kauu/BsbG2HJZ/square.jpg" />
+                                                </dd>
+                                                <dt class="trade_title"><a href="http://www.lizi.com/product-29573002.html" target="_blank">姬芮真皙美白隔离霜
+                                                                
+                                                                </a>
+                                                </dt>
+                                                <dd class="trade_price">￥69.00 x 1</dd>
+                                                <dd class="trade_rebuy"><a class="J_addCart" href="javascript:void(0);" rel="nofollow">再次购买</a>
+                                                    <input type="hidden" name="id" value="29583005" />
+                                                </dd>
+                                            </dl>
+
+                                            <dl class="cle_float">
+                                                <dd class="trade_img">
+                                                    <img src="http://pic.yupoo.com/kauu/C1rB1z7V/square.jpg" />
+                                                </dd>
+                                                <dt class="trade_title"><a href="http://www.lizi.com/product-138033812.html" target="_blank">丝塔芙舒特肤洁面乳
+                                                                
+                                                                </a>
+                                                </dt>
+                                                <dd class="trade_price">￥79.00 x 1</dd>
+                                                <dd class="trade_rebuy"><a class="J_addCart" href="javascript:void(0);" rel="nofollow">再次购买</a>
+                                                    <input type="hidden" name="id" value="138043814" />
+                                                </dd>
+                                            </dl>
+
+                                            <dl class="cle_float">
+                                                <dd class="trade_img">
+                                                    <img src="http://pic.yupoo.com/kauu/C3sfrGLs/square.jpg" />
+                                                </dd>
+                                                <dt class="trade_title"><a href="http://www.lizi.com/product-211671180.html" target="_blank">姬芮新能真皙晶肌水
+                                                                
+                                                                    (醇润型)
+                                                                
+                                                                </a>
+                                                </dt>
+                                                <dd class="trade_price">￥95.00 x 1</dd>
+                                                <dd class="trade_rebuy"><a class="J_addCart" href="javascript:void(0);" rel="nofollow">再次购买</a>
+                                                    <input type="hidden" name="id" value="211681182" />
+                                                </dd>
+                                            </dl>
+
+                                        </td>
+
+                                        <td class="status">
+
+                                            <span class="trade_ex">
+                                                <i class="iconfont">&#345;</i>
+                                                韵达
+
+                                            </span>
+                                            <a class="J_exBtn" data-id="14051853000000945557" data-name="韵达快运" data-num="1201291869912" href="javascript:void(0);">跟踪</a>
+
+                                        </td>
+
+                                        <td class="operate">
+
+                                            <div>
+                                                <a target="_blank" class="graybtn" href="http://www.lizi.com/trade/detail/14051853000000945557">查看详情</a>
+
+                                            </div>
+
+                                            <div>
+                                                <a href="javascript:;" class="graybtn del-trade" data-id="14051853000000945557"><i class="iconfont">Ť</i>删除订单</a>
+                                            </div>
+
+
+                                        </td>
+                                    </tr>
+                                </tbody>
+
+
+                            </tbody>
+                        </table>
+
+
+                        <div class="pagenav">
+                            <ul>
+                                <li></li>
+                            </ul>
+                            <div class="clear"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script src="js/my_trade.js"></script>
+
+    </div>
+    <div id="footer">
+        <div class="ft-bg">
+            <div class="ft_main">
+
+                <div class="ft_links">
+                    <div class="ft_nav"><a href="http://www.lizi.com/help/about_us_lizi.html" target="_blank" class="noborder" rel="nofollow">关于丽子</a><a href="http://www.lizi.com/cms/" target="_blank">美容资讯</a><a href="http://www.lizi.com/help/bus_co.html" target="_blank" rel="nofollow">商务合作</a><a href="http://www.lizi.com/help/join_us.html" target="_blank" rel="nofollow">加入我们</a><a href="http://www.lizi.com/help/free_ship_detail.html" target="_blank" rel="nofollow">配送政策</a><a href="http://www.lizi.com/help/zhengpin_lizi.html" target="_blank" rel="nofollow">售后保障</a><a href="http://www.lizi.com/help/shopping_guide.html" target="_blank" rel="nofollow">帮助中心</a><a href="http://www.lizi.com/help/link.html" target="_blank">友情链接</a><a href="http://www.lizi.com/help/contact_us.html" target="_blank" rel="nofollow">联系我们</a>
+                    </div>
+                    <div class="img_links">
+                        <a class="no1" href="http://www.lizi.com/help/zhengpin_lizi.html" target="_blank" rel="nofollow"></a>
+                        <a class="no2" href="http://www.lizi.com/help/30_return.html" target="_blank" rel="nofollow"></a>
+                    </div>
+                </div>
+                <div class="ft_txt">
+                    <p>
+                        Copyright 2009-2014, 辛巴信息技术（杭州）有限公司 LIZI.COM 增值电信业务经营许可证：浙B2-20110315 备案号：<a href="http://www.miitbeian.gov.cn" target="_blank" rel="nofollow">浙ICP备11012845号-5</a>
+                    </p>
+                    <p class="ft_contact">
+                        <span>7X24小时全天候服务</span>
+                        <span class="ft_phone">客服热线:
+                            <em>4007-112-112</em>
+                        </span>
+                    </p>
+                    <p class="link">
+                        友情链接：
+                        <a href="http://www.yuanbaopu.com" target="_blank">元宝铺</a>
+                        <a href="http://www.mizhe.com" target="_blank">米折网</a>
+                        <a href="http://www.4.cn" target="_blank">金名网</a>
+                        <a href="http://www.zz91.com/" target="_blank">zz91再生网</a>
+                        <a href="http://www.duomai.com/" target="_blank">多麦</a>
+                        <a href="http://www.gome.com.cn/" target="_blank">国美在线</a>
+                        <a href="http://www.huanbao.com/" target="_blank">中国环保网</a>
+                        <a href="http://www.zbird.com" target="_blank">钻石小鸟</a>
+                        <a href="http://www.handu.com" target="_blank">韩都衣舍</a>
+                        <a href="http://www.eelly.com" target="_blank">衣联网</a>
+                        <a href="http://www.guang.com" target="_blank">逛</a>
+                        <a href="http://www.shangpin.com" target="_blank">尚品网</a>
+                        <a href="http://www.xiu.com" target="_blank">走秀网</a>
+                        <a href="http://www.17ugo.com" target="_blank">优购网</a>
+                        <a href="http://www.moonbasa.com" target="_blank">梦芭莎</a>
+                        <a href="http://www.fandongxi.com" target="_blank">翻东西</a>
+                        <a href="http://www.lizi.com/help/link.html" target="_blank">更多&gt;&gt;</a>
+                    </p>
+                    <p class="beian-logos">
+                        <a href="http://www.lizi.com/cms/1460.html" target="_blank">
+                            <img alt="丽子美妆获得电商金典奖" src="http://cdn.lizi.com/images/kong.gif" original="http://cdn.lizi.com/images/flogo-jindian.png" />
+                        </a>
+
+                        <a href="http://www.lizi.com/help/zhengpin_lizi.html" target="_blank">
+                            <img alt="中国人保为丽子化妆品承保" src="http://cdn.lizi.com/images/kong.gif" original="http://cdn.lizi.com/images/flogo-picc.png" />
+                        </a>
+
+                        <a href="http://www.itrust.org.cn/yz/pjwx.asp?wm=1563049676" target="_blank">
+                            <img alt="互联网协会A级信用认证" src="http://cdn.lizi.com/images/kong.gif" original="http://cdn.lizi.com/images/flogo-xinyong.png" />
+                        </a>
+
+                        <a href="http://t.knet.cn/index_new.jsp" target="_blank">
+                            <img alt="丽子美妆可信网站权威认证" src="http://cdn.lizi.com/images/kong.gif" original="http://cdn.lizi.com/images/flogo-kexin.png" class="no-border" />
+                        </a>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+</body>
+
+</html>

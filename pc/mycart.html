@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8"/>
+        <link rel="dns-prefetch" href="//img.nala.com.cn">
+        <title>购物车</title>
+        <link rel="shortcut icon" href="http://img.nala.com.cn/lizi/favicon.ico" type="image/x-icon" />
+        <meta name="Description" content="丽子 L"/>
+        <meta name="Keywords" content="LiZi,丽子,化妆品,丽子美妆,化妆品网站,化妆品商城,丽子网"/>
+        <meta name="MSSmartTagsPreventParsing" content="True"/>
+        <meta http-equiv="MSThemeCompatible" content="Yes"/>        
+        <meta http-equiv="Content-Language" content="zh-CN"/>
+
+        <link rel="stylesheet" href="css/global_cart.css?v=20140915" />
+        <script src="js/jquery.js"></script>
+        <script src="js/dialog.min.js"></script>
+        <script src="js/global.min.js"></script>
+    <link rel="stylesheet" href="css/cart.css?v=201409152" />
+
+
+
+    </head>
+    <body>
+        <div id="header">
+    <div class="hd_bar" id="userinfo-bar">
+        <div class="bd">
+            <div class="logo"><a href="http://www.lizi.com/">丽子商城</a></div>
+            <div class="hd_lbar">
+                <a href="http://www.lizi.com" rel="nofollow">多美首页</a>
+                
+                    <a href="/login/auth" rel="nofollow"><i class="iconfont">&#338;</i>登 录</a>
+                    <a href="/user/reg" rel="nofollow">注册</a>
+                
+            </div>
+            <ul class="hd-step">
+                    <li class="first on"><em>1</em>我的购物车<i></i></li>
+                    <li class="jt">&nbsp;</li>
+                    <li><em>2</em>确认订单信息<i></i></li>
+                    <li class="jt">&nbsp;</li>
+                    <li class="last"><em>3</em>成功提交订单<i></i></li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+        
+<div id="main">
+<div class="top-next cle">
+    
+        <div class="fl">
+            我有账号，现在就<a href="javascript:;" id="login-link">登录</a>
+        </div>
+    
+
+    <div class="fr">
+        <a href="http://www.lizi.com/item/newsearch" class="graybtn">继续购物</a>
+        <a href="javascript:;" class="btn" id="checkout-top">&nbsp;去下单&nbsp;</a>
+    </div>
+</div>
+
+<div class="cart-box" id="cart-box">
+
+<div class="hd">
+    <span class="no1"><input type="checkbox" name="checkall" checked="checked" /></span>
+    <span class="no2" id="itemsnum-top">2件商品</span>
+    <span class="no3">单价</span>
+    <span>数量</span>
+    <span>小计</span>
+</div>
+
+
+
+<div class="goods-list">
+<ul>
+
+    
+        
+        
+
+        <li class="cle ">
+            <div class="check">
+                <input type="checkbox" name="goodsId" value="646989290" checked="checked" />
+            </div>
+            <div class="pic">
+                <a href="http://www.lizi.com/product-2020274.html" target="_blank">
+                    <img alt="MISSHA谜尚红BB霜/完美无瑕修容霜50ml" src="http://pic.yupoo.com/kauu/C9OQV1uA/square.jpg"></a>
+            </div>
+            <div class="name">
+                <a href="http://www.lizi.com/product-2020274.html" target="_blank">
+                    MISSHA谜尚红BB霜/完美无瑕修容霜50ml
+                </a>
+                <p>
+                    
+                    
+                        <i>23#自然色</i>
+                    
+                </p>
+            </div>
+            
+            
+                <div class="price-one">
+                    <p>￥<em>99.00</em></p>
+                </div>
+                <div class="nums">
+                    <span class="minus" title="减少1个数量">-</span>
+                    <input type="text" data-limit="99" value="1">
+                    <span class="add" title="增加1个数量">+</span>
+                </div>
+                <div class="price-xj"><span>￥</span>
+                    <em>99.00</em>
+                </div>
+                <div class="del">
+                    
+                    <a class="btn-del" href="javascript:;">删除</a>
+                </div>
+            
+        </li>
+    
+        
+        
+
+        <li class="cle ">
+            <div class="check">
+                <input type="checkbox" name="goodsId" value="646989283" checked="checked" />
+            </div>
+            <div class="pic">
+                <a href="http://www.lizi.com/product-598769949.html" target="_blank">
+                    <img alt="Amore爱茉莉绿吕氏洗发水套装400ml+180ml" src="http://nalapic.b0.upaiyun.com/2e4636036dc33.jpg!square"></a>
+            </div>
+            <div class="name">
+                <a href="http://www.lizi.com/product-598769949.html" target="_blank">
+                    Amore爱茉莉绿吕氏洗发水套装400ml+180ml
+                </a>
+                <p>
+                    
+                    
+                </p>
+            </div>
+            
+            
+                <div class="price-one">
+                    <p>￥<em>68.00</em></p>
+                </div>
+                <div class="nums">
+                    <span class="minus" title="减少1个数量">-</span>
+                    <input type="text" data-limit="99" value="1">
+                    <span class="add" title="增加1个数量">+</span>
+                </div>
+                <div class="price-xj"><span>￥</span>
+                    <em>68.00</em>
+                </div>
+                <div class="del">
+                    
+                    <a class="btn-del" href="javascript:;">删除</a>
+                </div>
+            
+        </li>
+    
+
+
+</ul>
+</div>
+
+
+
+
+<!-- 积分换购商品 -->
+
+
+<div class="fd cle">
+    <div class="fl">
+        <p class="no1">
+            <span><input type="checkbox" name="checkall" checked="checked" /> 全选</span>
+            <a id="del-checked" href="javascript:;">删除勾选商品</a>
+            <a id="del-all" href="/cart/delete?cartId=641696672"><i class="iconfont">&#223;</i>清空购物车</a>
+        </p>
+        <p><a class="graybtn" href="http://www.lizi.com/item/newsearch"><i class="iconfont">&#403;</i>继续购物</a></p>
+    </div>
+    <div class="fr" id="price-total"></div>
+</div>
+
+</div>
+
+</div>
+
+
+
+<script type="text/javascript">
+    var user_freecard = 0;
+    var user_integral = 0;
+    var postage_fee = 99;
+</script>
+<script src="js/cart.js?201409152"></script>
+
+
+
+        <div id="footer">
+    <div class="ft-bg">
+        <div class="ft_main">
+            
+            <div  class="ft_links">
+                <div class="ft_nav"><a href="http://www.lizi.com/help/about_us_lizi.html" target="_blank" class="noborder" rel="nofollow">关于丽子</a><a href="http://www.lizi.com/cms/" target="_blank">美容资讯</a><a href="http://www.lizi.com/help/bus_co.html" target="_blank" rel="nofollow">商务合作</a><a href="http://www.lizi.com/help/join_us.html" target="_blank" rel="nofollow">加入我们</a><a href="http://www.lizi.com/help/free_ship_detail.html" target="_blank" rel="nofollow">配送政策</a><a href="http://www.lizi.com/help/zhengpin_lizi.html" target="_blank" rel="nofollow">售后保障</a><a href="http://www.lizi.com/help/shopping_guide.html" target="_blank" rel="nofollow">帮助中心</a><a href="http://www.lizi.com/help/link.html" target="_blank">友情链接</a><a href="http://www.lizi.com/help/contact_us.html" target="_blank" rel="nofollow">联系我们</a></div>
+                <div class="img_links"><a class="no1" href="http://www.lizi.com/help/zhengpin_lizi.html" target="_blank" rel="nofollow"></a>
+                    <a class="no2" href="http://www.lizi.com/help/30_return.html" target="_blank" rel="nofollow"></a></div>
+            </div>
+            <div class="ft_txt">
+                <p>
+                    Copyright 2009-2014, 辛巴信息技术（杭州）有限公司 LIZI.COM 增值电信业务经营许可证：浙B2-20110315 备案号：<a href="http://www.miitbeian.gov.cn" target="_blank" rel="nofollow">浙ICP备11012845号-5</a></p>
+                <p class="ft_contact">
+                    <span>7X24小时全天候服务</span> <span class="ft_phone">客服热线: <em>4007-112-112</em></span></p>
+                <p class="beian-logos">
+                    <img alt="经营性网站备案" class="beian-ico" src="http://img.nala.com.cn/images/kong.gif" /> <img alt="金牌服务典范" class="fuwu-ico" src="http://img.nala.com.cn/images/kong.gif" /></p>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+    </body>
+</html>

@@ -1,0 +1,91 @@
+/*
+** 丽子美妆 首页
+*/
+
+body{background:#f5f5f5;}
+#header .hd_main{background:url(http://localhost/duomei/pc/b2c/images/isnala_tip.png?0811) 230px 10px no-repeat;}
+
+/* 轮播图 */
+.index-slide { width: 100%; height: 280px; position: relative; overflow: hidden; background: url(http://cdn.lizi.com/images/loading_nala.gif) center center no-repeat; }
+.index-slide ul { height: 280px; overflow: hidden }
+.index-slide li { width: 100%; height: 280px; overflow: hidden; position: absolute; left: 0; top: 0; background-position: center 0; background-repeat: no-repeat; }
+.index-slide li:first-child { z-index: 2; }
+.index-slide li a { display: block; height: 280px; width: 1196px; margin: 0 auto; }
+.index-slide .trigger-box { width: 400px; margin: 0 auto; position: absolute; top: 255px; left: 50%; z-index: 10; margin-left: -200px; }
+.index-slide .triggers { text-align: center; font-size: 0 }
+.trigger-box .triggers a { display: inline-block; width: 0; padding: 15px 0 0 15px; height: 0px; line-height: 0px; overflow: hidden; background-color: #333; background: rgba(51, 51, 51, 0.5); filter: Alpha(opacity=80); border-radius: 15px; text-align: center; font-size: 14px; font-weight: bold; color: #fff; font-family: arial; margin-right: 10px; }
+.trigger-box .triggers a:hover { text-decoration: none; color: #fff }
+.trigger-box .triggers a.current { background: #f70; filter: Alpha(opacity=100) }
+
+/*加入购物车成功*/
+.addcart_success{width: 420px; padding: 0 20px;}
+.addcart_success h3{font-size: 18px; color: #f70; text-align: center;}
+.addcart_success h3 i{font-size: 28px; color: #00b000; margin-right: 15px;}
+.addcart_success p{color: #999; font-size: 14px; margin-bottom: 15px; text-align: center;}
+.addcart_success p.item{color: #333; height: 50px; overflow: hidden;}
+.addcart_success p.item img{width: 50px; height: 50px; vertical-align: middle;}
+.addcart_success .btm{padding-top: 20px;}
+
+
+/*类目推荐*/
+.series_list{width: 1195px; margin: 0 auto; padding-bottom: 30px;}
+.series_box{margin-top:30px; background-color: #fff;}
+.series_info{width:200px; height: 399px; border-bottom:1px solid #ccc; float:left; overflow: hidden;}
+.series_info .brand{border-left:1px solid #ccc; padding: 8px 0;}
+.series_info .brand li{padding:10px 0; height: 50px; overflow: hidden; text-align: center;}
+.series_info .brand li img{width: 100px; height: 50px; vertical-align: top;}
+.series_info .brand li img:hover{-webkit-animation:imgShark 1s;}
+.series_info .brand_cata{padding:12px 0 10px 20px; height: 73px; overflow: hidden; background-color:#f5f5f5; border-left:1px solid #ccc; }
+.series_info .brand_cata a{display:inline-block; font-size:14px; line-height:24px; color:#666; width: 64px; margin-right:20px; }
+
+.series_info .series_name{padding:20px 45px;}
+.series_info .series_name h2{height: 0; padding-top: 38px; overflow: hidden; background:url(http://img.nala.com.cn/lizi/b2c/images/series_icon.png?0811) 0 0 no-repeat;}
+/*护肤*/
+.series_info .name_hufu{background-color:#95ce67;}
+.series_info .name_hufu h2{background-position: 0 -128px;}
+/*彩妆*/
+.series_info .name_caizhuang{background-color:#f3646a;}
+.series_info .name_caizhuang h2{background-position: 0 -63px;}
+/*日化清洁*/
+.series_info .name_rihua{background-color:#f9b548; padding:20px 27px;}
+.series_info .name_rihua h2{background-position: 0 0;}
+/*化妆工具*/
+.series_info .name_gongju{background-color:#f70; padding:20px 27px;}
+.series_info .name_gongju h2{background-position: 0 -188px;}
+
+@-webkit-keyframes imgShark{
+    0%{-webkit-transform:translate(0,0)}
+    40%{-webkit-transform:translate(0,-8px)}
+    100%{-webkit-transform:translate(0,0)}
+}
+
+
+.series_list .series_pic{width:340px; float:left; overflow: hidden; margin-right: -10px;}
+.series_list .series_pic img{width: 340px; height: 400px; vertical-align: top;  -webkit-transition: all 4s; -moz-transition: all 4s; -ms-transition: all 4s; -o-transition: all 4s; transition: all 4s; -webkit-transform:scale(1);}
+.series_list .series_pic img:hover{-webkit-transform:scale(1.08);}
+
+
+.series_list .pro_list{width:994px; height: 398px; overflow: hidden; float:left; border-top:1px solid #ccc; border-bottom:1px solid #ccc;  border-right:1px solid #ccc; }
+.series_list .pro_list ul{margin-right: -30px; zoom: 1;}
+.series_list .pro_list li{float:left; _display: inline; width:158px; height:179px; border-right:1px solid #ccc; border-bottom:1px solid #ccc; padding: 10px 20px; overflow: hidden;}
+.series_list .pro_list li .pic{text-align:center;}
+.series_list .pro_list li .pic img{width:120px; height:120px; vertical-align: top;}
+.series_list .pro_list li h3{color:#666; font-size: 12px; margin: 10px 0 5px;}
+.series_list .pro_list li .price{color:#f70; font-size: 14px;}
+.series_list .pro_list li a{display:block; text-decoration:none;}
+.series_list .pro_list li a:hover img{opacity: .7; filter: Alpha(opacity=70); }
+
+
+
+/*app二维码*/
+#app_2code{position: fixed; z-index: 1000; bottom:120px; left: 50%; margin-left: 610px; _position: absolute; _top:expression((document).documentElement.scrollTop+(document).documentElement.clientHeight-205); width: 84px; height: 70px; padding: 15px 0 10px; text-align: center; background-color: #fff; color: #f70; overflow: hidden;}
+#app_2code img{width: 50px; height: 50px; vertical-align: top;}
+#app_2code p{margin-top: 5px;}
+
+#app_2code.app_2code_hover{ width: 124px; height: 115px; margin-left: 570px}
+#app_2code.app_2code_hover img{ width: 99px; height: 99px;}
+
+.is1280 #app_2code{margin-left: 0; left: auto; right: 0;}
+/* 首页图片获得焦点放大效果 */
+.pro_list li:hover img { transform: scale(1.2); -webkit-transform: scale(1.2); }
+.pro_list li img { transition: 1s; -moz-transition: 1s; -webkit-transition: 1s; -o-transition: 1s; }

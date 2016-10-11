@@ -1,0 +1,51 @@
+/* ** 登录注册页面
+** update 2014.7.9 */
+
+/* left cms */
+.box-pic { width: 600px; height: 450px; overflow: hidden; float: left; }
+/* -------------------------咨 询 弹 窗------------------------------------------ */
+.zixun-box { position: absolute; top: 48px; right: 0; width: 250px; padding: 25px; background-color: #f7f7f7; box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.3); z-index: 999; display: none; }
+.zixun-box i.arw { width: 0; height: 0; overflow: hidden; position: absolute; right: 112px; top: -16px; border: 8px dashed transparent; border-bottom: 8px solid #f7f7f7; }
+.zixun-box .closed { position: absolute; right: 20px; top: 15px; font-size: 16px; }
+.zixun-box .closed:hover { text-decoration: none; }
+.zixun-box h5 { font-size: 16px; font-style: italic; }
+.zixun-box p { margin-top: 6px; font-size: 14px; }
+.zixun-box .zixun-qq { padding: 20px 0; }
+.zixun-box .zixun-qq a { display: block; width: 142px; height: 42px; background: url(http://img.nala.com.cn/lizi/cart/images/zixun-qq.png) 0 0 no-repeat; }
+/* 注册 */
+#register_box h2 { font-size: 18px; font-style: normal; font-weight: 100; letter-spacing: 5px; }
+#register_box .trig { float: right; font-size: 12px; letter-spacing: 0px;margin-top:5px;  }
+#register_box .trig a { text-decoration: underline; }
+/* 输入框 */
+.register_infor { margin: 15px 0; width: 320px; }
+.register_infor ul li.input_box { border: 1px solid #ccc; line-height: 18px; padding: 6px; position: relative; zoom: 1; }
+.register_infor ul li.input_box .t_text{position: absolute;color: #ccc;left: 14px;top: 10px;}
+.register_infor ul li.input_box input { border: 0; border: none; padding: 4px 6px; width: 265px; height: 18px; line-height: 18px; overflow: hidden; color: #333; vertical-align: middle; color: #333; margin-left: 2px; }
+.register_infor ul li.security_code {width: 100px;}
+.register_infor ul li.security_code  input{width: 80px;}
+.register_infor ul li.security_code img{position: absolute; top: 0; right: -130px;width: 110px;height: 40px;background: url(http://img.nala.com.cn/images/loading.gif) center no-repeat;}
+.register_infor ul li.security_code a{position: absolute; color: #3399ff;top: 10px; right: -190px;text-decoration: underline;}
+
+/* 错误提示 */
+.register_infor ul li.error_box ,.register_infor ul li.error_box em{ display: block; height: 24px; line-height: 24px;_height: 20px; _line-height: 20px; color: #fe564b;overflow: hidden;}
+.register_infor ul li.input_box .error_icon{background:url(http://img.nala.com.cn/lizi/b2c/images/error_icon.png) 0 -50px no-repeat;position: absolute;width: 14px;height:14px;right: 10px;top:11px;}
+.register_infor ul li.params_error{border-color: #fe655c;}
+.register_infor ul li.params_error .error_icon{background-position: 0 0;}
+.register_infor ul li.params_success .error_icon{background-position: 0 -18px;}
+.register_infor ul li.input_box span.loading_icon{background: url(http://img.nala.com.cn/images/loading.gif?0719);}
+
+/*手机验证码*/
+.register_infor ul li.security_code a#send_security_code {color: #666;text-decoration: none;padding: 11px 20px;top: 0px;font-size: 14px;right: -206px;display: none;}
+.register_infor ul li.security_code a.disabled{background: #ccc;}
+
+/* 同意协议并注册 */
+.register_infor ul li.lizi_law a{color: #3399ff;}
+.register_infor ul li.go2register a { width: 100%; padding: 15px 0; text-align: center;font-size: 18px;}
+
+/*注册图片验证码*/
+.checkImage{width: 300px;}
+.checkImage input{width: 100px; padding:5px; height: 16px; overflow: hidden; border: 1px solid #eee; border-top-color: #ccc; margin: 8px 0; box-shadow: 0px 1px 3px rgba(200, 200, 200, 0.3) inset; color: #333; vertical-align: middle;}
+.checkImage .img{padding-bottom: 20px;}
+.checkImage .img img{vertical-align: -8px; margin-right: 10px;width: 110px;height: 40px;background: url(http://img.nala.com.cn/images/loading.gif) center no-repeat;}
+.checkImage .img a{color: #09f;}
+.checkImage a.btn{padding: 5px 18px; font-size: 14px; margin-left: 10px;}

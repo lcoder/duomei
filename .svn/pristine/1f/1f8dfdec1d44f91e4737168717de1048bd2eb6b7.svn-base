@@ -1,0 +1,136 @@
+杭电生活区
+
+2号楼
+3号楼
+4号南楼
+4号北楼
+5号南楼
+5号北楼
+6号南楼
+8号楼
+10号南楼
+10号北楼
+11号南楼
+11号北楼
+12号南楼
+12号北楼
+13号楼
+14号楼
+15号楼
+16号楼
+18号楼
+21号楼
+22号楼
+27号楼
+28号楼
+29号楼
+30号楼
+31号楼
+32号楼
+
+0: {displayName:浙江理工大学生活一区1号楼, dormitoryId:1, dormitoryName:1号楼}
+1: {displayName:浙江理工大学生活一区2号楼, dormitoryId:2, dormitoryName:2号楼}
+2: {displayName:浙江理工大学生活一区3号南楼, dormitoryId:3, dormitoryName:3号南楼}
+3: {displayName:浙江理工大学生活一区3号北楼, dormitoryId:4, dormitoryName:3号北楼}
+4: {displayName:浙江理工大学生活一区4号南楼, dormitoryId:5, dormitoryName:4号南楼}
+5: {displayName:浙江理工大学生活一区4号北楼, dormitoryId:6, dormitoryName:4号北楼}
+
+
+0: {displayName:浙江理工大学生活二区2号东楼, dormitoryId:7, dormitoryName:2号东楼}
+1: {displayName:浙江理工大学生活二区2号西楼, dormitoryId:8, dormitoryName:2号西楼}
+2: {displayName:浙江理工大学生活二区4号南楼, dormitoryId:9, dormitoryName:4号南楼}
+3: {displayName:浙江理工大学生活二区4号北楼, dormitoryId:10, dormitoryName:4号北楼}
+4: {displayName:浙江理工大学生活二区5号南楼, dormitoryId:11, dormitoryName:5号南楼}
+5: {displayName:浙江理工大学生活二区5号北楼, dormitoryId:12, dormitoryName:5号北楼}
+6: {displayName:浙江理工大学生活二区6号南楼, dormitoryId:13, dormitoryName:6号南楼}
+7: {displayName:浙江理工大学生活二区6号北楼, dormitoryId:14, dormitoryName:6号北楼}
+8: {displayName:浙江理工大学生活二区12号楼, dormitoryId:15, dormitoryName:12号楼}
+9: {displayName:浙江理工大学生活二区研究生楼, dormitoryId:16, dormitoryName:研究生楼}
+
+0: {displayName:浙江理工大学生活三区1号东楼, dormitoryId:17, dormitoryName:1号东楼}
+1: {displayName:浙江理工大学生活三区1号西楼, dormitoryId:18, dormitoryName:1号西楼}
+2: {displayName:浙江理工大学生活三区3号东楼, dormitoryId:19, dormitoryName:3号东楼}
+3: {displayName:浙江理工大学生活三区3号西楼, dormitoryId:20, dormitoryName:3号西楼}
+4: {displayName:浙江理工大学生活三区7号楼, dormitoryId:21, dormitoryName:7号楼}
+5: {displayName:浙江理工大学生活三区8号楼, dormitoryId:22, dormitoryName:8号楼}
+6: {displayName:浙江理工大学生活三区9号楼, dormitoryId:23, dormitoryName:9号楼}
+7: {displayName:浙江理工大学生活三区10号楼, dormitoryId:24, dormitoryName:10号楼}
+8: {displayName:浙江理工大学生活三区11号楼, dormitoryId:25, dormitoryName:11号楼}
+
+
+0: {displayName:浙江传媒学院传媒生活区1号楼, dormitoryId:161, dormitoryName:1号楼}
+1: {displayName:浙江传媒学院传媒生活区2号楼, dormitoryId:162, dormitoryName:2号楼}
+2: {displayName:浙江传媒学院传媒生活区3号楼, dormitoryId:163, dormitoryName:3号楼}
+3: {displayName:浙江传媒学院传媒生活区4号楼, dormitoryId:164, dormitoryName:4号楼}
+4: {displayName:浙江传媒学院传媒生活区5号楼, dormitoryId:165, dormitoryName:5号楼}
+5: {displayName:浙江传媒学院传媒生活区6号楼, dormitoryId:166, dormitoryName:6号楼}
+6: {displayName:浙江传媒学院传媒生活区7号楼, dormitoryId:167, dormitoryName:7号楼}
+7: {displayName:浙江传媒学院传媒生活区8号楼, dormitoryId:168, dormitoryName:8号楼}
+8: {displayName:浙江传媒学院传媒生活区9号楼, dormitoryId:169, dormitoryName:9号楼}
+9: {displayName:浙江传媒学院传媒生活区10号楼, dormitoryId:170, dormitoryName:10号楼}
+10: {displayName:浙江传媒学院传媒生活区11号楼, dormitoryId:171, dormitoryName:11号楼}
+11: {displayName:浙江传媒学院传媒生活区12号楼, dormitoryId:172, dormitoryName:12号楼}
+12: {displayName:浙江传媒学院传媒生活区13号楼, dormitoryId:173, dormitoryName:13号楼}
+13: {displayName:浙江传媒学院传媒生活区14号楼, dormitoryId:174, dormitoryName:14号楼}
+14: {displayName:浙江传媒学院传媒生活区15号楼, dormitoryId:175, dormitoryName:15号楼}
+15: {displayName:浙江传媒学院传媒生活区16号楼, dormitoryId:176, dormitoryName:16号楼}
+16: {displayName:浙江传媒学院传媒生活区17号楼, dormitoryId:177, dormitoryName:17号楼}
+17: {displayName:浙江传媒学院传媒生活区18号楼, dormitoryId:178, dormitoryName:18号楼}
+18: {displayName:浙江传媒学院传媒生活区19号楼, dormitoryId:179, dormitoryName:19号楼}
+19: {displayName:浙江传媒学院传媒生活区20号楼, dormitoryId:180, dormitoryName:20号楼}
+20: {displayName:浙江传媒学院传媒生活区21号楼, dormitoryId:181, dormitoryName:21号楼}
+21: {displayName:浙江传媒学(留学生)楼, dormitoryId:182, dormitoryName:研究生(留学生)楼}
+22: {displayName:浙江传媒学院传媒生活区sa楼, dormitoryId:183, dormitoryName:sa楼}
+23: {displayName:浙江传媒学院传媒生活区sb楼, dormitoryId:184, dormitoryName:sb楼}
+24: {displayName:浙江传媒学院传媒生活区sc楼, dormitoryId:185, dormitoryName:sc楼}
+25: {displayName:浙江传媒学院传媒生活区sd楼, dormitoryId:186, dormitoryName:sd楼}
+
+0: {displayName:中国计量学院本部1号楼, dormitoryId:215, dormitoryName:1号楼}
+1: {displayName:中国计量学院本部2号楼, dormitoryId:216, dormitoryName:2号楼}
+2: {displayName:中国计量学院本部3号楼, dormitoryId:217, dormitoryName:3号楼}
+3: {displayName:中国计量学院本部4号楼, dormitoryId:218, dormitoryName:4号楼}
+4: {displayName:中国计量学院本部5号楼, dormitoryId:219, dormitoryName:5号楼}
+5: {displayName:中国计量学院本部6号楼, dormitoryId:220, dormitoryName:6号楼}
+6: {displayName:中国计量学院本部7号楼, dormitoryId:221, dormitoryName:7号楼}
+7: {displayName:中国计量学院本部8号楼, dormitoryId:222, dormitoryName:8号楼}
+8: {displayName:中国计量学院本部9号楼, dormitoryId:223, dormitoryName:9号楼}
+9: {displayName:中国计量学院本部10号楼, dormitoryId:224, dormitoryName:10号楼}
+10: {displayName:中国计量学院本部11号楼, dormitoryId:225, dormitoryName:11号楼}
+11: {displayName:中国计量学院本部12号楼, dormitoryId:226, dormitoryName:12号楼}
+12: {displayName:中国计量学院本部13号楼, dormitoryId:227, dormitoryName:13号楼}
+
+
+0: {displayName:中国计量学院现科1号楼, dormitoryId:228, dormitoryName:1号楼}
+1: {displayName:中国计量学院现科2号楼, dormitoryId:229, dormitoryName:2号楼}
+2: {displayName:中国计量学院现科3号楼, dormitoryId:230, dormitoryName:3号楼}
+3: {displayName:中国计量学院现科4号楼, dormitoryId:231, dormitoryName:4号楼}
+4: {displayName:中国计量学院现科5号楼, dormitoryId:232, dormitoryName:5号楼}
+5: {displayName:中国计量学院现科6号楼, dormitoryId:233, dormitoryName:6号楼}
+6: {displayName:中国计量学院现科7号楼, dormitoryId:234, dormitoryName:7号楼}
+7: {displayName:中国计量学院现科8号楼, dormitoryId:235, dormitoryName:8号楼}
+8: {displayName:中国计量学院现科9号楼, dormitoryId:236, dormitoryName:9号楼}
+
+
+0: {displayName:杭州职业技术学院含晖苑5号南楼, dormitoryId:128, dormitoryName:5号南楼}
+1: {displayName:杭州职业技术学院含晖苑5号北楼, dormitoryId:129, dormitoryName:5号北楼}
+2: {displayName:杭州职业技术学院含晖苑6号南楼, dormitoryId:130, dormitoryName:6号南楼}
+3: {displayName:杭州职业技术学院含晖苑6号北楼, dormitoryId:131, dormitoryName:6号北楼}
+4: {displayName:杭州职业技术学院含晖苑7号楼, dormitoryId:132, dormitoryName:7号楼}
+5: {displayName:杭州职业技术学院含晖苑8号楼, dormitoryId:133, dormitoryName:8号楼}
+
+
+0: {displayName:浙江财经大学桃李苑1号楼, dormitoryId:200, dormitoryName:1号楼}
+1: {displayName:浙江财经大学桃李苑3号楼, dormitoryId:201, dormitoryName:3号楼}
+2: {displayName:浙江财经大学桃李苑5号楼, dormitoryId:202, dormitoryName:5号楼}
+3: {displayName:浙江财经大学桃李苑6号楼, dormitoryId:203, dormitoryName:6号楼}
+4: {displayName:浙江财经大学桃李苑9号楼, dormitoryId:204, dormitoryName:9号楼}
+5: {displayName:浙江财经大学桃李苑10号楼, dormitoryId:205, dormitoryName:10号楼}
+6: {displayName:浙江财经大学桃李苑12号楼, dormitoryId:206, dormitoryName:12号楼}
+7: {displayName:浙江财经大学桃李苑15号楼, dormitoryId:207, dormitoryName:15号楼}
+8: {displayName:浙江财经大学桃李苑16号楼, dormitoryId:208, dormitoryName:16号楼}
+9: {displayName:浙江财经大学桃李苑19号楼, dormitoryId:209, dormitoryName:19号楼}
+10: {displayName:浙江财经大学桃李苑20号楼, dormitoryId:210, dormitoryName:20号楼}
+11: {displayName:浙江财经大学桃李苑23号楼, dormitoryId:211, dormitoryName:23号楼}
+12: {displayName:浙江财经大学桃李苑24号楼, dormitoryId:212, dormitoryName:24号楼}
+13: {displayName:浙江财经大学桃李苑25号楼, dormitoryId:213, dormitoryName:25号楼}
+14: {displayName:浙江财经大学桃李苑30号楼, dormitoryId:214, dormitoryName:30号楼}

@@ -1,0 +1,704 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <link rel="dns-prefetch" href="//img.nala.com.cn">
+    <link rel="dns-prefetch" href="//cdn.lizi.com">
+    <title>多美美妆(原nala.com.cn) - 专注化妆品售卖100年！买化妆品到LiZi，100%正品化妆品购物网站。支持货到付款,30天无理由退换货！</title>
+    <meta name="Description" content="丽子美妆，是中国最独特的正品化妆品零售网站！网购化妆品，首选丽子美妆，千万美妆用户的选择！丽子LiZi支持货到付款，30天无条件退换货，买化妆品，快来丽子吧！" />
+    <meta name="Keywords" content="LiZi,丽子,化妆品,丽子美妆,化妆品网站,化妆品商城,丽子网" />
+    <link rel="shortcut icon" href="http://img.nala.com.cn/lizi/favicon.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="css/global.css" />
+    <link rel="stylesheet" href="css/index.css" />
+    <link rel="canonical" href="http://www.lizi.com" />
+</head>
+
+<body>
+    <!-- 广告 -->
+    <!-- <div style="background:url(http://cdn.lizi.com/images/index/top-20140904.jpg) center 0 no-repeat; height: 69px;"></div>-->
+    <div id="header">
+        <div class="hd_bar">
+            <div class="bd_bar_bd">
+                <ul id="userinfo-bar">
+                    <li>
+                        <a href="http://www.lizi.com/login/auth" rel="nofollow">登录</a>
+                        <s>|</s>
+                        <a href="http://www.lizi.com/user/reg" rel="nofollow">注册</a>
+                    </li>
+                    <li class="more-menu">
+                        <a href="http://www.lizi.com/user/myTrade" rel="nofollow">我的多美</a>  <i class="iconfont arrow">&#8193;</i>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="hd_main cle">
+            <div class="logo">
+                <p>
+                    <a href="http://www.lizi.com">丽子美妆</a>
+                </p>
+            </div>
+
+            <div class="intro">
+                <ul>
+                    <li class="no1">
+                        <a href="http://www.lizi.com/help/zhengpin_lizi.html" target="_blank" rel="nofollow">
+                            <h4>正品保障</h4>
+                            <p>我为自己代言</p>
+                        </a>
+                    </li>
+                    <li class="no2">
+                        <a href="http://www.lizi.com/help/30_return.html" target="_blank" rel="nofollow">
+                            <h4>7天无理由退换货</h4>
+                            <p>轻松购物有保障</p>
+                        </a>
+                    </li>
+                    <li class="no3">
+                        <a href="http://www.lizi.com/help/free_ship_detail.html" target="_blank" rel="nofollow">
+                            <h4>闪电发货</h4>
+                            <p>当天下单当天送达</p>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="hd_cart" id="head_cart">
+                <a class="tit" href="http://www.lizi.com/cart/mycart" rel="nofollow"> <b class="iconfont">&#413;</b>
+                    去购物车结算
+                    <span> <i class="iconfont">&#xe62c;</i>
+                    </span>
+                    <em class="num" id="hd_cartnum">0</em>
+                </a>
+                <div class="list">
+                    <p class="load"></p>
+                </div>
+            </div>
+        </div>
+        <div class="hd_nav">
+            <div class="hd_nav_bd cle">
+                <div class="main_nav" id="main_nav">
+                    <div class="main_nav_link">
+                        <a href="javascript:;">全部商品分类</a>
+                        <i class="iconfont">&#xe62e;</i>
+                    </div>
+                    <div class="main_cata" id="J_mainCata">
+                        <ul>
+                            <li class="first">
+                                <h3><a target="_blank" href="http://www.lizi.com/item/01/">护肤</a>
+                                </h3>
+                                <div class="bd">
+                                    <a target="_blank" href="http://www.lizi.com/item/0103/">洁面</a>
+                                    <a target="_blank" href="http://www.lizi.com/item/0107/">爽肤水</a>
+                                    <a target="_blank" href="http://www.lizi.com/item/0116/">防晒</a>
+                                    <a target="_blank" href="http://www.lizi.com/item/0102/">卸妆</a>
+                                    <a target="_blank" href="http://www.lizi.com/item/0110/">眼部护理</a>
+                                    <a target="_blank" href="http://www.lizi.com/item/0108/">面部精华</a>
+                                    <a target="_blank" href="http://www.lizi.com/item/0111/">乳液/面霜</a>
+                                </div>
+                            </li>
+                            <li>
+                                <h3><a target="_blank" href="http://www.lizi.com/item/02/">彩妆</a>
+                                </h3>
+                                <div class="bd">
+                                    <a target="_blank" href="http://www.lizi.com/item/0203/">BB霜</a>
+                                    <a target="_blank" href="http://www.lizi.com/item/0206/">隔离/打底</a>
+                                    <a target="_blank" href="http://www.lizi.com/item/0213/">粉底</a>
+                                    <a target="_blank" href="http://www.lizi.com/item/0202/">眼影</a>
+                                    <a target="_blank" href="http://www.lizi.com/item/0210/">眼线</a>
+                                    <a target="_blank" href="http://www.lizi.com/item/0208/">睫毛膏</a>
+                                    <a target="_blank" href="http://www.lizi.com/item/0223/">口红</a>
+                                    <a target="_blank" href="http://www.lizi.com/item/04/">香水</a>
+                                </div>
+                            </li>
+                            <li>
+                                <h3><a target="_blank" href="http://www.lizi.com/item/07/">日化清洁</a>
+                                </h3>
+                                <div class="bd">
+                                    <a target="_blank" href="http://www.lizi.com/item/0703/">洗发护肤</a>
+                                    <a target="_blank" href="http://www.lizi.com/item/0701/">身体洗护</a>
+                                    <a target="_blank" href="http://www.lizi.com/item/0702/">口腔护理</a>
+                                </div>
+                            </li>
+                            <li>
+                                <h3><a target="_blank" href="http://www.lizi.com/item/05/">健康保养</a>
+                                </h3>
+                                <div class="bd">
+                                    <a target="_blank" href="http://www.lizi.com/item/0502/">纤体瘦身</a>
+                                    <a target="_blank" href="http://www.lizi.com/item/0501/">美容丰胸</a>
+                                    <a target="_blank" href="http://www.lizi.com/item/0503/">成人用品</a>
+                                </div>
+                            </li>
+                            <li>
+                                <h3><a target="_blank" href="http://www.lizi.com/item/03/">化妆工具</a>
+                                </h3>
+                                <div class="bd">
+                                    <a target="_blank" href="http://www.lizi.com/item/0301/">化妆刷</a>
+                                    <a target="_blank" href="http://www.lizi.com/item/0315/">化妆棉</a>
+                                    <a target="_blank" href="http://www.lizi.com/item/0311/">粉扑/洁面扑</a>
+                                </div>
+                            </li>
+                            <li class="last">
+                                <a target="_blank" href="http://www.lizi.com/all-brand/">品牌大全</a>
+                                <a class="no2" target="_blank" href="http://www.lizi.com/item/newsearch">商品大全</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="J_subCata" id="J_subCata">
+                    </div>
+                </div>
+                <ul class="sub_nav cle" id="sub_nav">
+
+                </ul>
+                <div class="search_box">
+                    <form action="/item/newsearch" method="get" id="search_fm" name="search_fm">
+
+                        <input class="sea_input" type="text" name="content" id="textfield" value="请输入商品或品牌" />
+
+
+                        <input type="hidden" value="k1" name="dataBi" />
+                        <button type="submit" class="sea_submit">搜索</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--Banner切换-->
+    <div class="index-banner">
+        <div class="index-slide" id="index-slide">
+            <ul>
+                <li data-img="http://localhost/duomei/pc/b2c/images/banner/20140906-1.jpg">
+                    <a target="_blank" href="http://www.lizi.com/active/weekends4.html" title="丽子周末精选辑"></a>
+                </li>
+                <li data-img="http://localhost/duomei/pc/b2c/images/banner/20140906-2.jpg">
+                    <a target="_blank" href="http://www.lizi.com/product-582188256.html" title="菲诗小铺"></a>
+                </li>
+                <li data-img="http://localhost/duomei/pc/b2c/images/banner/20140904-1.jpg?20140904">
+                    <a target="_blank" href="http://www.lizi.com/product-595669576.html" title="爱丽小屋"></a>
+                </li>
+            </ul>
+            <div class="trigger-box">&nbsp;</div>
+        </div>
+    </div>
+
+    <!-- 类目推荐 -->
+    <div class="series_list">
+
+        <div class="series_box cle">
+
+            <div class="series_info">
+                <div class="series_name name_hufu">
+                    <h2>护肤</h2>
+                </div>
+                <ul class="brand">
+                    <li>
+                        <a href="http://www.lizi.com/all-brand/esteelauder/" target="_blank">
+                            <img src="http://cdn.lizi.com/images/kong.gif" original="http://pic.yupoo.com/kauu/CBeeVdiY/AHe4g.jpg">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="http://www.lizi.com/all-brand/laneige/" target="_blank">
+                            <img src="http://cdn.lizi.com/images/kong.gif" original="http://pic.yupoo.com/kauu/CBeB6DvI/K7yiO.jpg">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="http://www.lizi.com/all-brand/kiehls/" target="_blank">
+                            <img src="http://cdn.lizi.com/images/kong.gif" original="http://pic.yupoo.com/kauu/CBetgrCi/dxspn.jpg">
+                        </a>
+                    </li>
+                </ul>
+                <div class="brand_cata">
+                    <a target="_blank" href="http://www.lizi.com/item/0103/">洁面</a>
+                    <a target="_blank" href="http://www.lizi.com/item/0107/">爽肤水</a>
+                    <a target="_blank" href="http://www.lizi.com/item/0116/">防晒</a>
+                    <a target="_blank" href="http://www.lizi.com/item/0112/">面膜</a>
+                    <a target="_blank" href="http://www.lizi.com/item/0102/">卸妆</a>
+                    <a target="_blank" href="http://www.lizi.com/item/0111/">乳液/面霜</a>
+                </div>
+            </div>
+
+            <div class="pro_list">
+
+                <ul class="cle">
+
+                    <li>
+                        <a href="http://www.lizi.com/product-507960792.html" target="_blank">
+                            <p class="pic">
+                                <img src="http://cdn.lizi.com/images/kong.gif" original="http://nalapic.b0.upaiyun.com/nalamall/1-XXXXXXXXpic.png!small">
+                            </p>
+
+                            <h3>御宅女面膜系列套装</h3>
+
+                            <p class="price">￥48.99</p>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="http://www.lizi.com/product-187478769.html" target="_blank">
+                            <p class="pic">
+                                <img src="http://cdn.lizi.com/images/kong.gif" original="http://nalapic.b0.upaiyun.com/67ab2bc9396d.png!small">
+                            </p>
+
+                            <h3>英国AA网修复凝胶</h3>
+
+                            <p class="price">￥61.99</p>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="http://www.lizi.com/product-2020310.html" target="_blank">
+                            <p class="pic">
+                                <img src="http://cdn.lizi.com/images/kong.gif" original="http://nalapic.b0.upaiyun.com/33f495353a702.jpg!small">
+                            </p>
+
+                            <h3>菲诗小铺金盏花精华液</h3>
+
+                            <p class="price">￥64.99</p>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="http://www.lizi.com/product-233273340.html" target="_blank">
+                            <p class="pic">
+                                <img src="http://cdn.lizi.com/images/kong.gif" original="http://pic.yupoo.com/kauu/C5SwsPEo/small.jpg">
+                            </p>
+
+                            <h3>欧树补水神奇眼霜</h3>
+
+                            <p class="price">￥128.99</p>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="http://www.lizi.com/product-2020675.html" target="_blank">
+                            <p class="pic">
+                                <img src="http://cdn.lizi.com/images/kong.gif" original="http://pic.yupoo.com/kauu/Bl0qi8Ox/small.jpg">
+                            </p>
+
+                            <h3>兰芝水凝清盈保湿水</h3>
+
+                            <p class="price">￥174.99</p>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="http://www.lizi.com/product-2021600.html" target="_blank">
+                            <p class="pic">
+                                <img src="http://cdn.lizi.com/images/kong.gif" original="http://pic.yupoo.com/kauu/Boe9rs6K/small.jpg">
+                            </p>
+
+                            <h3>资生堂洗颜专科洁面液</h3>
+
+                            <p class="price">￥67.99</p>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="http://www.lizi.com/product-2021600.html" target="_blank">
+                            <p class="pic">
+                                <img src="http://cdn.lizi.com/images/kong.gif" original="http://pic.yupoo.com/kauu/Boe9rs6K/small.jpg">
+                            </p>
+
+                            <h3>资生堂洗颜专科洁面液</h3>
+
+                            <p class="price">￥67.99</p>
+                        </a>
+                    </li>
+                </ul>
+
+            </div>
+        </div>
+
+        <div class="series_box cle">
+
+            <div class="series_info">
+                <div class="series_name name_caizhuang">
+                    <h2>彩妆</h2>
+                </div>
+                <ul class="brand">
+                    <li>
+                        <a href="http://www.lizi.com/all-brand/maxfactor/" target="_blank">
+                            <img src="http://cdn.lizi.com/images/kong.gif" original="http://pic.yupoo.com/kauu/CBeHAu1m/qZHnI.jpg">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="http://www.lizi.com/all-brand/etudehouse/" target="_blank">
+                            <img src="http://cdn.lizi.com/images/kong.gif" original="http://pic.yupoo.com/kauu/CBofCo4u/Q82Rr.jpg">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="http://www.lizi.com/all-brand/missha/" target="_blank">
+                            <img src="http://cdn.lizi.com/images/kong.gif" original="http://pic.yupoo.com/kauu/CBexmErh/DWqqx.jpg">
+                        </a>
+                    </li>
+                </ul>
+                <div class="brand_cata">
+                    <a target="_blank" href="http://www.lizi.com/item/0203/">BB霜</a>
+                    <a target="_blank" href="http://www.lizi.com/item/0206/">隔离</a>
+                    <a target="_blank" href="http://www.lizi.com/item/0213/">粉底</a>
+                    <a target="_blank" href="http://www.lizi.com/item/0210/">眼线</a>
+                    <a target="_blank" href="http://www.lizi.com/item/0202/">眼影</a>
+                    <a target="_blank" href="http://www.lizi.com/item/0223/">口红</a>
+                </div>
+            </div>
+
+
+
+            <div class="pro_list">
+
+                <ul class="cle">
+
+                    <li>
+                        <a href="http://www.lizi.com/product-538443843.html" target="_blank">
+                            <p class="pic">
+                                <img src="http://cdn.lizi.com/images/kong.gif" original="http://nalapic.b0.upaiyun.com/28962cbb87daa.jpg!small">
+                            </p>
+
+                            <h3>美宝莲精纯矿物BB霜</h3>
+
+                            <p class="price">￥87.99</p>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="http://www.lizi.com/product-504040399.html" target="_blank">
+                            <p class="pic">
+                                <img src="http://cdn.lizi.com/images/kong.gif" original="http://nalapic.b0.upaiyun.com/c2acc3e41409.jpg!small">
+                            </p>
+
+                            <h3>赫拉保湿防晒气垫粉饼</h3>
+
+                            <p class="price">￥257.99</p>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="http://www.lizi.com/product-436263630.html" target="_blank">
+                            <p class="pic">
+                                <img src="http://cdn.lizi.com/images/kong.gif" original="http://nalapic.b0.upaiyun.com/22e7021e40fc6.jpg!small">
+                            </p>
+
+                            <h3>爱丽小屋果冻唇膏</h3>
+
+                            <p class="price">￥50.99</p>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="http://www.lizi.com/product-2020899.html" target="_blank">
+                            <p class="pic">
+                                <img src="http://cdn.lizi.com/images/kong.gif" original="http://nalapic.b0.upaiyun.com/cbdbfed1ba9.jpg!small">
+                            </p>
+
+                            <h3>Palladio嘟唇彩</h3>
+
+                            <p class="price">￥31.99</p>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="http://www.lizi.com/product-640214054.html" target="_blank">
+                            <p class="pic">
+                                <img src="http://cdn.lizi.com/images/kong.gif" original="http://nalapic.b0.upaiyun.com/289791bd72b79.jpg!small">
+                            </p>
+
+                            <h3>sleek矿物眼影</h3>
+
+                            <p class="price">￥78.99</p>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="http://www.lizi.com/product-640214053.html" target="_blank">
+                            <p class="pic">
+                                <img src="http://cdn.lizi.com/images/kong.gif" original="http://nalapic.b0.upaiyun.com/cd582596f83.jpg!small">
+                            </p>
+
+                            <h3>花瓣雕刻 高光粉</h3>
+
+                            <p class="price">￥55.99</p>
+                        </a>
+                    </li>
+
+                </ul>
+
+            </div>
+        </div>
+
+        <div class="series_box cle">
+
+            <div class="series_info">
+                <div class="series_name name_rihua">
+                    <h2>日化清洁</h2>
+                </div>
+                <ul class="brand">
+                    <li>
+                        <a href="http://www.lizi.com/all-brand/amore/" target="_blank">
+                            <img src="http://cdn.lizi.com/images/kong.gif" original="http://nalapic.b0.upaiyun.com/2e45b7f2d0b08.jpg">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="http://www.lizi.com/all-brand/somang/" target="_blank">
+                            <img src="http://cdn.lizi.com/images/kong.gif" original="http://pic.yupoo.com/kauu/DjtYKWZN/nPfA9.jpg">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="http://www.lizi.com/all-brand/loreal/" target="_blank">
+                            <img src="http://cdn.lizi.com/images/kong.gif" original="http://pic.yupoo.com/kauu/CBeGLbU8/G7uFJ.jpg">
+                        </a>
+                    </li>
+                </ul>
+                <div class="brand_cata">
+                    <a target="_blank" href="http://www.lizi.com/item/0703/">洗发护肤</a>
+                    <a target="_blank" href="http://www.lizi.com/item/0701/">身体洗护</a>
+                    <a target="_blank" href="http://www.lizi.com/item/0702/">口腔护理</a>
+                </div>
+            </div>
+
+
+
+            <div class="pro_list">
+
+                <ul class="cle">
+
+                    <li>
+                        <a href="http://www.lizi.com/product-612441245.html" target="_blank">
+                            <p class="pic">
+                                <img src="http://cdn.lizi.com/images/kong.gif" original="http://nalapic.b0.upaiyun.com/2e460c25b548b.jpg!small">
+                            </p>
+
+                            <h3>嘉娜宝摩丝泡沫脱毛膏</h3>
+
+                            <p class="price">￥68.99</p>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="http://www.lizi.com/product-291959215.html" target="_blank">
+                            <p class="pic">
+                                <img src="http://cdn.lizi.com/images/kong.gif" original="http://pic.yupoo.com/kauu/CgxN6OE1/small.jpg">
+                            </p>
+
+                            <h3>欧舒丹乳木果护手霜</h3>
+
+                            <p class="price">￥64.99</p>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="http://www.lizi.com/product-4100410.html" target="_blank">
+                            <p class="pic">
+                                <img src="http://cdn.lizi.com/images/kong.gif" original="http://pic.yupoo.com/kauu/BodS2ZiD/small.jpg">
+                            </p>
+
+                            <h3>资生堂可悠然沐浴露</h3>
+
+                            <p class="price">￥54.99</p>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="http://www.lizi.com/product-441264182.html" target="_blank">
+                            <p class="pic">
+                                <img src="http://cdn.lizi.com/images/kong.gif" original="http://nalapic.b0.upaiyun.com/2e455dd9b569f.jpg!small">
+                            </p>
+
+                            <h3>齿亮白净色牙膏</h3>
+
+                            <p class="price">￥21.99</p>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="http://www.lizi.com/product-563936425.html" target="_blank">
+                            <p class="pic">
+                                <img src="http://cdn.lizi.com/images/kong.gif" original="http://nalapic.b0.upaiyun.com/c29c747e08c8.png!small">
+                            </p>
+
+                            <h3>所望红山茶花洗发水</h3>
+
+                            <p class="price">￥157.99</p>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="http://www.lizi.com/product-640214034.html" target="_blank">
+                            <p class="pic">
+                                <img src="http://cdn.lizi.com/images/kong.gif" original="http://nalapic.b0.upaiyun.com/22e84db9bad36.jpg!small">
+                            </p>
+
+                            <h3>碧缇丝洗发水</h3>
+
+                            <p class="price">￥34.99</p>
+                        </a>
+                    </li>
+
+                </ul>
+
+            </div>
+        </div>
+
+        <div class="series_box cle">
+
+            <div class="series_info">
+                <div class="series_name name_gongju">
+                    <h2>化妆工具</h2>
+                </div>
+                <ul class="brand">
+                    <li>
+                        <a href="http://www.lizi.com/all-brand/beautyartisan/" target="_blank">
+                            <img src="http://cdn.lizi.com/images/kong.gif" original="http://pic.yupoo.com/kauu/DpxIq7Ah/kXn5l.jpg">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="http://www.lizi.com/all-brand/miansen/" target="_blank">
+                            <img src="http://cdn.lizi.com/images/kong.gif" original="http://pic.yupoo.com/kauu/Dj9CVs8P/GpkEz.jpg">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="http://www.lizi.com/all-brand/suzuranlilybell/" target="_blank">
+                            <img src="http://cdn.lizi.com/images/kong.gif" original="http://pic.yupoo.com/kauu/D3m90gaL/3XOS.jpg">
+                        </a>
+                    </li>
+                </ul>
+                <div class="brand_cata">
+                    <a target="_blank" href="http://www.lizi.com/item/0315/">化妆棉</a>
+                    <a target="_blank" href="http://www.lizi.com/item/0301/">化妆刷</a>
+                    <a target="_blank" href="http://www.lizi.com/item/0208/">睫毛膏</a>
+                    <a target="_blank" href="http://www.lizi.com/item/0313/">双眼皮贴</a>
+                    <a target="_blank" href="http://www.lizi.com/item/0317/">修眉工具</a>
+                    <a target="_blank" href="http://www.lizi.com/item/0316/">分装工具</a>
+                </div>
+            </div>
+
+
+
+            <div class="pro_list">
+
+                <ul class="cle">
+
+                    <li>
+                        <a href="http://www.lizi.com/product-555265522.html" target="_blank">
+                            <p class="pic">
+                                <img src="http://cdn.lizi.com/images/kong.gif" original="http://nalapic.b0.upaiyun.com/nalamall/1-gjsz.png!small">
+                            </p>
+
+                            <h3>美丽工匠化妆套刷</h3>
+
+                            <p class="price">￥129.00</p>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="http://www.lizi.com/product-587238735.html" target="_blank">
+                            <p class="pic">
+                                <img src="http://cdn.lizi.com/images/kong.gif" original="http://nalapic.b0.upaiyun.com/cc0905a0736.jpg!small">
+                            </p>
+
+                            <h3>美丽工匠葫芦粉扑5个</h3>
+
+                            <p class="price">￥58.99</p>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="http://www.lizi.com/product-582978339.html" target="_blank">
+                            <p class="pic">
+                                <img src="http://cdn.lizi.com/images/kong.gif" original="http://nalapic.b0.upaiyun.com/1788afba06caa.jpg!small">
+                            </p>
+
+                            <h3>美丽工匠精品双头棉签</h3>
+
+                            <p class="price">￥9.99</p>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="http://www.lizi.com/product-598769884.html" target="_blank">
+                            <p class="pic">
+                                <img src="http://cdn.lizi.com/images/kong.gif" original="http://nalapic.b0.upaiyun.com/33f495361f44a.jpg!small">
+                            </p>
+
+                            <h3>玛姬儿压缩面膜20片</h3>
+
+                            <p class="price">￥3.99</p>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="http://www.lizi.com/product-302450246.html" target="_blank">
+                            <p class="pic">
+                                <img src="http://cdn.lizi.com/images/kong.gif" original="http://pic.yupoo.com/kauu/CiMwhLni/small.jpg">
+                            </p>
+
+                            <h3>美丽工匠简约台式化妆镜</h3>
+
+                            <p class="price">￥57.99</p>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="http://www.lizi.com/product-615571551.html" target="_blank">
+                            <p class="pic">
+                                <img src="http://cdn.lizi.com/images/kong.gif" original="http://nalapic.b0.upaiyun.com/c2af8bdcca10.jpg!small">
+                            </p>
+
+                            <h3>电动睫毛夹</h3>
+
+                            <p class="price">￥47.99</p>
+                        </a>
+                    </li>
+
+                </ul>
+
+            </div>
+        </div>
+
+    </div>
+
+    <script src="js/jquery.js"></script>
+    <script src="js/dialog.min.js"></script>
+    <script src="js/switchable.min.js"></script>
+    <script src="js/global.min.js"></script>
+    <script src="js/index.js"></script>
+
+    <div id="footer">
+        <div class="ft-bg">
+            <div class="ft_main">
+
+                <div class="ft_links">
+                    <div class="ft_nav">
+                        <a href="http://www.lizi.com/help/about_us_lizi.html" target="_blank" class="noborder" rel="nofollow">关于多美</a>
+                        <a href="http://www.lizi.com/help/join_us.html" target="_blank" rel="nofollow">加入我们</a>
+                        <a href="http://www.lizi.com/help/free_ship_detail.html" target="_blank" rel="nofollow">配送政策</a>
+                        <a href="http://www.lizi.com/help/zhengpin_lizi.html" target="_blank" rel="nofollow">售后保障</a>
+                        <a href="#" target="_blank" rel="nofollow">帮助中心</a>
+                        <a href="#" target="_blank">友情链接</a>
+                        <a href="http://www.lizi.com/help/contact_us.html" target="_blank" rel="nofollow">联系我们</a>
+                    </div>
+                    <div class="img_links">
+                        <a class="no1" href="#" target="_blank" rel="nofollow"></a>
+                    </div>
+                </div>
+                <div class="ft_txt">
+                    <p>
+                        Copyright 2014-2888, 多美网络信息技术（杭州）有限公司 DUOMEIBA.COM 增值电信业务经营许可证：浙B2-20110315 备案号：
+                        <a href="http://www.miitbeian.gov.cn" target="_blank" rel="nofollow">浙ICP备11012845号-5</a>
+                    </p>
+                    <p class="ft_contact">
+                        <span class="ft_phone">
+                            客服热线(理工短号):
+                            <em>529266</em>
+                        </span>
+                    </p>
+                    <p class="beian-logos">
+                        <img alt="经营性网站备案" class="beian-ico" src="http://img.nala.com.cn/images/kong.gif" />
+                        <img alt="金牌服务典范" class="fuwu-ico" src="http://img.nala.com.cn/images/kong.gif" />
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
